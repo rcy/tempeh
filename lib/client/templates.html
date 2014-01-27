@@ -1,0 +1,44 @@
+<head>
+  <title>Velvet</title>
+</head>
+
+<template name="coreLayout">
+  {{yield}}
+</template>
+
+<template name="coreHelp">
+  <h1>Welcome to Velvet!</h1>
+
+  <p>
+    Velvet is a smart package
+    for <a href="http://meteor.com">Meteor</a> intended to make
+    creating websites as simple as possible.
+  </p>
+
+  <p>
+    To begin, create a file called <code>client/home.html</code> in
+    your application directory with the following contents:
+    <pre>
+&lt;template name="home"&gt;
+  &lt;h1&gt;Hello World!&lt;/h1&gt;
+&lt;/template&gt;
+    </pre>
+  </p>
+
+  <p>
+    After you have saved that file, this page should automatically update and show your first page!
+  </p>
+</template>
+
+<template name="coreNotFound">
+  <h1>Page Not Found</h1>
+  <p>
+    Define you own <code>notFound</code> template to override this page:
+    <pre>
+&lt;template name="notFound"&gt;
+  &lt;h1&gt;That page doesn't exist!&lt;/h1&gt;
+&lt;/template&gt;
+    </pre>
+  </p>
+  <a href="/">home</a>
+</template>
