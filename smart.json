@@ -1,0 +1,10 @@
+{
+  "name": "velvet",
+  "description": "Simple site builder",
+  "homepage": "https://github.com/rcy/velvet",
+  "author": "Ryan Yeske (https://github.com/rcy)",
+  "version": "0.0.1",
+  "packages": {
+    "iron-router": {}
+  }
+}
