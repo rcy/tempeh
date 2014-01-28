@@ -1,7 +1,7 @@
 {
-  "name": "velvet",
+  "name": "tempeh",
   "description": "Simple site builder",
-  "homepage": "https://github.com/rcy/velvet",
+  "homepage": "https://github.com/rcy/tempeh",
   "author": "Ryan Yeske (https://github.com/rcy)",
   "version": "0.0.1",
   "packages": {
